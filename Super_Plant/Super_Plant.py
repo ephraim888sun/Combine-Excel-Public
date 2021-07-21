@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-filename = r'C:\Users\Ephraim.Sun\Desktop\proj3\Super_Plant_final1.xlsx'
+filename = r'C:\Users\Ephraim.Sun\Desktop\proj3\Super Plant\Super_Plant_template.xlsx'
 
 df_excel = pd.read_excel(filename, index_col=0)
 print(len(df_excel.columns))
@@ -11,7 +11,7 @@ for col in df_excel.columns:
     df_excel = df_excel.rename(columns={col: col.replace('\n', '')})
 count = 0
 max_row = 0
-rootdir = r'C:\Users\Ephraim.Sun\Desktop\proj3\Exception'
+rootdir = r'C:\Users\Ephraim.Sun\Desktop\proj3\Super Plant\File'
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:
         excel_loc = os.path.join(subdir, file)
@@ -34,9 +34,9 @@ for subdir, dirs, files in os.walk(rootdir):
         #         df = df.rename(columns={col: col.replace('_',' ')})
         # print(len(df.columns))
 
-        df_excel = pd.concat([df_excel, df], axis=0)
+        df_excel = pd.concat([df_excel, df], axis=0, ignore_index=False)
         # print(len(df_excel.columns))
 
 print(max_row)
-df_excel.to_excel('Super_Plant1.xlsx', index=True)
+df_excel.to_excel('test1.xlsx', index=True)
 
