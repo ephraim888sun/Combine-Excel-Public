@@ -11,3 +11,7 @@ Couple of issues: When adding the dataframes together, one of the column names w
 I was able to separate these two by running the script twice, one with the dash and one without. Also, all of the excel sheets had 157 columns except for two of them. I was able to isolate these two files and manually include them at the end. 
 
 Overall, I was able to save a lot of time by automating the process instead of manually going into each excel file to copy and paste. This also help me with my python skills, as it was one of my first times putting my pandas modules skills to the test.
+
+
+Update: 
+I was assigned two more excel sheets. These were relatively similar as I already knew how to combine them. It shows that my code is credible and that I was able to save a humongous amount of time running the script instead of doing them manually.
