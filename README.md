@@ -15,3 +15,5 @@ Overall, I was able to save a lot of time by automating the process instead of m
 
 Update: 
 I was assigned two more excel sheets. These were relatively similar as I already knew how to combine them. It shows that my code is credible and that I was able to save a humongous amount of time running the script instead of doing them manually.
+
+#Due to confidential reasons, there will be no results as it belongs to Scout Energy Management LLC.
