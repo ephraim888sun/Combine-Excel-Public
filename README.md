@@ -1,6 +1,6 @@
 # Combine_Excel
 
-During my internship at Scout Energy Patners in the summer of 2021, one of my side projects was to combine multiple excel sheets together. There was about 42 excel sheets each having 157 (should have 157) columns. The final combined excel sheet had around 20615 rows!
+During my internship at Scout Energy Partners in the summer of 2021, one of my side projects was to combine multiple excel sheets together. There was about 42 excel sheets each having 157 (should have 157) columns. The final combined excel sheet had around 20615 rows!
 
 Process:
 To combine each excel sheet, I was able to use the pandas modules to help me. First, I created an excel sheet with only the column headers. Then, I would loop through all the excel files, allow pandas to read the files (xlsx or csv), and then clean up the data a little bit. Then, I would add it to a dataframe, repeating this process until all the excel sheets were part of the same dataframe (used pd.concat()). 
